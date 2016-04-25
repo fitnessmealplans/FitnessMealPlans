@@ -13,5 +13,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="FitnessMealPlans"
+        android:textSize="40dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="FitnessMealPlans2"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:textSize="40dp" />
+
 </RelativeLayout>
