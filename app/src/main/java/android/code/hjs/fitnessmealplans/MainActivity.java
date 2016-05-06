@@ -9,8 +9,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
-import android.code.hjs.fitnessmealplans.R;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,9 +35,11 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 
+
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new CalendarActivity(), "Calendar");
+        //adapter.addFragment(new CalendarGridviewActivity(), "Calendar");
         adapter.addFragment(new HomeActivity(), "Dairy");
         adapter.addFragment(new RecipeActivity(), "Recipe");
         adapter.addFragment(new ProfileActivity(), "Profile");

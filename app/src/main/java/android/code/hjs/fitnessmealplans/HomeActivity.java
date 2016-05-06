@@ -13,7 +13,7 @@ import android.code.hjs.fitnessmealplans.R;
  */
 public class HomeActivity  extends Fragment {
 
-    public HomeActivity() {
+    public HomeActivity(){
     }
 
     @Override
